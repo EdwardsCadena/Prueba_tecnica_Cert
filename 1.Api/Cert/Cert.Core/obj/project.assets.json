@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj",
+      "projectUniqueName": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj",
       "projectName": "Cert.Core",
-      "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj",
+      "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj",
       "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\obj\\",
+      "outputPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

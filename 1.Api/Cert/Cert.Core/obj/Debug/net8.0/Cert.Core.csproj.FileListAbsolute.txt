@@ -9,3 +9,15 @@ C:\Users\elect\source\repos\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.dll
 C:\Users\elect\source\repos\Cert\Cert.Core\obj\Debug\net8.0\refint\Cert.Core.dll
 C:\Users\elect\source\repos\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.pdb
 C:\Users\elect\source\repos\Cert\Cert.Core\obj\Debug\net8.0\ref\Cert.Core.dll
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\bin\Debug\net8.0\Cert.Core.deps.json
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\bin\Debug\net8.0\Cert.Core.dll
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\bin\Debug\net8.0\Cert.Core.pdb
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.AssemblyInfoInputs.cache
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.AssemblyInfo.cs
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.csproj.CoreCompileInputs.cache
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.sourcelink.json
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.dll
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\refint\Cert.Core.dll
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\Cert.Core.pdb
+F:\Repositories\Prueba_tecnica_Cert\1.Api\Cert\Cert.Core\obj\Debug\net8.0\ref\Cert.Core.dll

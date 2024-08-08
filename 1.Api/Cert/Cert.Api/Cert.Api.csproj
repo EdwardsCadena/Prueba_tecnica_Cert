@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Response\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Cert.Core\Cert.Core.csproj" />
     <ProjectReference Include="..\Cert.Infrastructure\Cert.Infrastructure.csproj" />
   </ItemGroup>

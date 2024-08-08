@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cert.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb74c55f47e5132159bd5d26d3e0a4378a395589")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cert.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cert.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

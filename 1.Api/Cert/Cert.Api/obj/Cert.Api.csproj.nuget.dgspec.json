@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Api\\Cert.Api.csproj": {}
+    "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Cert.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Api\\Cert.Api.csproj": {
+    "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Cert.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Api\\Cert.Api.csproj",
+        "projectUniqueName": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Cert.Api.csproj",
         "projectName": "Cert.Api",
-        "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Api\\Cert.Api.csproj",
+        "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Cert.Api.csproj",
         "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Api\\obj\\",
+        "outputPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj": {
-                "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj"
+              "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj": {
+                "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj"
               },
-              "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj"
+              "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj": {
+                "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj": {
+    "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj",
+        "projectUniqueName": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj",
         "projectName": "Cert.Core",
-        "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj",
+        "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj",
         "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\obj\\",
+        "outputPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj": {
+    "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj",
+        "projectUniqueName": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj",
         "projectName": "Cert.Infrastructure",
-        "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj",
+        "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\obj\\",
+        "outputPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -185,8 +185,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj": {
-                "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj"
+              "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj": {
+                "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj"
               }
             }
           }
@@ -206,6 +206,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

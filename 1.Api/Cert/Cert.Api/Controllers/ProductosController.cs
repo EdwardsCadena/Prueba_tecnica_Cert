@@ -1,8 +1,9 @@
-﻿using Cert.Core.Entities;
+﻿using AutoMapper;
+using Cert.Api.Response;
+using Cert.Core.DTOs;
+using Cert.Core.Entities;
 using Cert.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Cert.Api.Controllers
 {
@@ -11,45 +12,53 @@ namespace Cert.Api.Controllers
     public class ProductosController : ControllerBase
     {
         private readonly IProductoRepository _repository;
+        private readonly IMapper _mapper;
 
-        public ProductosController(IProductoRepository repository)
+        public ProductosController(IProductoRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
+        public async Task<ActionResult<ApiResponse<IEnumerable<ProductoDTOs>>>> GetProductos()
         {
-            return Ok(await _repository.GetAllAsync());
+            var productos = await _repository.GetAllAsync();
+            var productosDto = _mapper.Map<IEnumerable<ProductoDTOs>>(productos);
+            return Ok(new ApiResponse<IEnumerable<ProductoDTOs>>(productosDto));
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Producto>> GetProducto(int id)
+        public async Task<ActionResult<ApiResponse<ProductoDTOs>>> GetProducto(int id)
         {
             var producto = await _repository.GetByIdAsync(id);
             if (producto == null)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<ProductoDTOs>(null)); // Devuelve un ApiResponse con Data como null
             }
 
-            return Ok(producto);
+            var productoDto = _mapper.Map<ProductoDTOs>(producto);
+            return Ok(new ApiResponse<ProductoDTOs>(productoDto));
         }
 
         [HttpPost]
-        public async Task<ActionResult<Producto>> PostProducto(Producto producto)
+        public async Task<ActionResult<ApiResponse<ProductoDTOs>>> PostProducto(ProductoDTOs productDto)
         {
+            var producto = _mapper.Map<Producto>(productDto);
             var nuevoProducto = await _repository.AddAsync(producto);
-            return CreatedAtAction(nameof(GetProducto), new { id = nuevoProducto.Id }, nuevoProducto);
+            var nuevoProductoDto = _mapper.Map<ProductoDTOs>(nuevoProducto);
+            return CreatedAtAction(nameof(GetProducto), new { id = nuevoProducto.Id }, new ApiResponse<ProductoDTOs>(nuevoProductoDto));
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProducto(int id, Producto producto)
+        public async Task<IActionResult> PutProducto(int id, Producto productDto)
         {
-            if (id != producto.Id)
+            if (id != productDto.Id)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<ProductoDTOs>(null)); // Devuelve un ApiResponse con Data como null
             }
 
+            var producto = _mapper.Map<Producto>(productDto);
             await _repository.UpdateAsync(producto);
             return NoContent();
         }
@@ -60,7 +69,7 @@ namespace Cert.Api.Controllers
             var result = await _repository.DeleteAsync(id);
             if (!result)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<ProductoDTOs>(null)); // Devuelve un ApiResponse con Data como null
             }
 
             return NoContent();
@@ -72,7 +81,7 @@ namespace Cert.Api.Controllers
             var result = await _repository.UpdateCantidadAsync(id, cantidad);
             if (!result)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<ProductoDTOs>(null)); // Devuelve un ApiResponse con Data como null
             }
 
             return NoContent();

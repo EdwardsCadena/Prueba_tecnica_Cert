@@ -4,7 +4,8 @@ using Cert.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//Mapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 // Add services to the container.
 builder.Services.AddDbContext<CertContext>(options =>
                                            options.UseNpgsql(builder.Configuration.GetConnectionString("Connection")));

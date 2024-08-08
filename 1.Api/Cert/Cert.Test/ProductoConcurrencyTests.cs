@@ -6,6 +6,7 @@ using Xunit;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace Cert.Test
 {
@@ -30,7 +31,7 @@ namespace Cert.Test
 
             using (var context = new CertContext(_dbContextOptions))
             {
-                context.Productos.Add(new Producto { Id = 1, Nombre = "Producto1", Precio = 100m, Cantidad = initialQuantity });
+                context.Productos.Add(new Producto { Nombre = "Producto1", Precio = 100m, Cantidad = initialQuantity });
                 context.SaveChanges();
             }
 

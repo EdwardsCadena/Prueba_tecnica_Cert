@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -965,6 +981,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "Cert.Core": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4"
         },
@@ -978,6 +995,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -2720,11 +2752,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Api\\Cert.Api.csproj",
+      "projectUniqueName": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Cert.Api.csproj",
       "projectName": "Cert.Api",
-      "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Api\\Cert.Api.csproj",
+      "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Cert.Api.csproj",
       "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Api\\obj\\",
+      "outputPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2746,11 +2778,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj": {
-              "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Core\\Cert.Core.csproj"
+            "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj": {
+              "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Cert.Core.csproj"
             },
-            "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj"
+            "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj": {
+              "projectPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj"
             }
           }
         }

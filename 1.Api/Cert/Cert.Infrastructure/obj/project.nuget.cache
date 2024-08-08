@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dV/CN1GKJbM=",
+  "dgSpecHash": "QEYN7U1Ff6c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\elect\\source\\repos\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj",
+  "projectFilePath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Cert.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\elect\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\elect\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\elect\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\elect\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
