@@ -21,7 +21,7 @@ namespace Cert.Infrastructure.Repository
 
         public async Task<IEnumerable<Producto>> GetAllAsync()
         {
-            return await _context.Productos.ToListAsync();
+            return await _context.Productos.AsNoTracking().ToListAsync();
         }
 
         public async Task<Producto> GetByIdAsync(int id)

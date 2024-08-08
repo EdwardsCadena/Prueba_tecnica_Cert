@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|solutionrelative:cert.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.api\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|solutionrelative:cert.api\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{389B9A06-59EA-4C13-A214-A731B21B2592}|Cert.Core\\Cert.Core.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.core\\dtos\\productodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389B9A06-59EA-4C13-A214-A731B21B2592}|Cert.Core\\Cert.Core.csproj|solutionrelative:cert.core\\dtos\\productodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|solutionrelative:cert.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B85C6E-E273-4753-9578-3C6396E13E8D}|Cert.Infrastructure\\Cert.Infrastructure.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.infrastructure\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B85C6E-E273-4753-9578-3C6396E13E8D}|Cert.Infrastructure\\Cert.Infrastructure.csproj|solutionrelative:cert.infrastructure\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7B85C6E-E273-4753-9578-3C6396E13E8D}|Cert.Infrastructure\\Cert.Infrastructure.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.infrastructure\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7B85C6E-E273-4753-9578-3C6396E13E8D}|Cert.Infrastructure\\Cert.Infrastructure.csproj|solutionrelative:cert.infrastructure\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{389B9A06-59EA-4C13-A214-A731B21B2592}|Cert.Core\\Cert.Core.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.core\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389B9A06-59EA-4C13-A214-A731B21B2592}|Cert.Core\\Cert.Core.csproj|solutionrelative:cert.core\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389B9A06-59EA-4C13-A214-A731B21B2592}|Cert.Core\\Cert.Core.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.core\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389B9A06-59EA-4C13-A214-A731B21B2592}|Cert.Core\\Cert.Core.csproj|solutionrelative:cert.core\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|solutionrelative:cert.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.api\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|solutionrelative:cert.api\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D99B4C0D-6AC8-4330-A9D1-24049F2B064E}|Cert.Test\\Cert.Test.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.test\\productoconcurrencytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D99B4C0D-6AC8-4330-A9D1-24049F2B064E}|Cert.Test\\Cert.Test.csproj|solutionrelative:cert.test\\productoconcurrencytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9AA72C-A0B1-47F8-9E5B-4AF94F49C262}|Cert.Api\\Cert.Api.csproj|solutionrelative:cert.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389B9A06-59EA-4C13-A214-A731B21B2592}|Cert.Core\\Cert.Core.csproj|f:\\repositories\\prueba_tecnica_cert\\1.api\\cert\\cert.core\\dtos\\productodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389B9A06-59EA-4C13-A214-A731B21B2592}|Cert.Core\\Cert.Core.csproj|solutionrelative:cert.core\\dtos\\productodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Repository\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Cert.Infrastructure\\Repository\\ProductoRepository.cs",
+              "ToolTip": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Repository\\ProductoRepository.cs",
+              "RelativeToolTip": "Cert.Infrastructure\\Repository\\ProductoRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:54:02.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Interfaces\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "Cert.Core\\Interfaces\\IProductoRepository.cs",
+              "ToolTip": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Interfaces\\IProductoRepository.cs",
+              "RelativeToolTip": "Cert.Core\\Interfaces\\IProductoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:53:55.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Entities\\Producto.cs",
+              "RelativeDocumentMoniker": "Cert.Core\\Entities\\Producto.cs",
+              "ToolTip": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\Entities\\Producto.cs",
+              "RelativeToolTip": "Cert.Core\\Entities\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:53:53.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Program.cs",
               "RelativeDocumentMoniker": "Cert.Api\\Program.cs",
@@ -51,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Response\\ApiResponse.cs",
               "RelativeDocumentMoniker": "Cert.Api\\Response\\ApiResponse.cs",
@@ -64,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AutomapperProfile.cs",
               "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Infrastructure\\Mapping\\AutomapperProfile.cs",
               "RelativeDocumentMoniker": "Cert.Infrastructure\\Mapping\\AutomapperProfile.cs",
@@ -77,20 +128,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Cert.Api\\Controllers\\ProductosController.cs",
               "ToolTip": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Api\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "Cert.Api\\Controllers\\ProductosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFMAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T05:56:51.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ProductoDTOs.cs",
               "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Core\\DTOs\\ProductoDTOs.cs",
               "RelativeDocumentMoniker": "Cert.Core\\DTOs\\ProductoDTOs.cs",
@@ -98,18 +149,17 @@
               "RelativeToolTip": "Cert.Core\\DTOs\\ProductoDTOs.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T05:56:42.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T05:56:42.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductoConcurrencyTests.cs",
               "DocumentMoniker": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Test\\ProductoConcurrencyTests.cs",
               "RelativeDocumentMoniker": "Cert.Test\\ProductoConcurrencyTests.cs",
               "ToolTip": "F:\\Repositories\\Prueba_tecnica_Cert\\1.Api\\Cert\\Cert.Test\\ProductoConcurrencyTests.cs",
               "RelativeToolTip": "Cert.Test\\ProductoConcurrencyTests.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAB0AAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T05:52:47.042Z",
               "EditorCaption": ""

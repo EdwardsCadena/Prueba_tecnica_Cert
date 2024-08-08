@@ -57,7 +57,7 @@ namespace Cert.Test
                             }
                             catch (DbUpdateConcurrencyException)
                             {
-                                // Manejar conflicto de concurrencia, puedes registrar el error o simplemente ignorarlo en la prueba
+                                
                             }
                         }
                     }
@@ -71,7 +71,6 @@ namespace Cert.Test
             {
                 var producto = await context.Productos.FindAsync(1);
                 Assert.NotNull(producto);
-                // La cantidad final puede ser menor debido a conflictos de concurrencia
                 Assert.True(producto.Cantidad <= initialQuantity + updatedQuantity * numberOfTasks, "La cantidad final no es la esperada.");
             }
         }

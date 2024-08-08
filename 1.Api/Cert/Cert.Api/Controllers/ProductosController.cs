@@ -34,7 +34,7 @@ namespace Cert.Api.Controllers
             var producto = await _repository.GetByIdAsync(id);
             if (producto == null)
             {
-                return NotFound(new ApiResponse<ProductoDTOs>(null)); // Devuelve un ApiResponse con Data como null
+                return NotFound(new ApiResponse<ProductoDTOs>(null)); 
             }
 
             var productoDto = _mapper.Map<ProductoDTOs>(producto);
@@ -55,7 +55,7 @@ namespace Cert.Api.Controllers
         {
             if (id != productDto.Id)
             {
-                return BadRequest(new ApiResponse<ProductoDTOs>(null)); // Devuelve un ApiResponse con Data como null
+                return BadRequest(new ApiResponse<ProductoDTOs>(null)); 
             }
 
             var producto = _mapper.Map<Producto>(productDto);
@@ -69,7 +69,7 @@ namespace Cert.Api.Controllers
             var result = await _repository.DeleteAsync(id);
             if (!result)
             {
-                return NotFound(new ApiResponse<ProductoDTOs>(null)); // Devuelve un ApiResponse con Data como null
+                return NotFound(new ApiResponse<ProductoDTOs>(null)); 
             }
 
             return NoContent();
@@ -81,7 +81,7 @@ namespace Cert.Api.Controllers
             var result = await _repository.UpdateCantidadAsync(id, cantidad);
             if (!result)
             {
-                return NotFound(new ApiResponse<ProductoDTOs>(null)); // Devuelve un ApiResponse con Data como null
+                return NotFound(new ApiResponse<ProductoDTOs>(null)); 
             }
 
             return NoContent();
