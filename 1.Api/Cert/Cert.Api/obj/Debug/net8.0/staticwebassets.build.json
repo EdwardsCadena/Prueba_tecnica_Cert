@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OWT9YmSVOPPvDzgOfFz7DSkTANHpSrs3DqBRuIpBano=",
+  "Source": "Cert.Api",
+  "BasePath": "_content/Cert.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

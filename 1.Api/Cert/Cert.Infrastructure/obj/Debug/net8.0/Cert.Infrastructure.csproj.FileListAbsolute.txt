@@ -1,0 +1,17 @@
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\bin\Debug\net8.0\Cert.Infrastructure.deps.json
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\bin\Debug\net8.0\Cert.Infrastructure.runtimeconfig.json
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\bin\Debug\net8.0\Cert.Infrastructure.dll
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\bin\Debug\net8.0\Cert.Infrastructure.pdb
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\bin\Debug\net8.0\Cert.Core.dll
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\bin\Debug\net8.0\Cert.Core.pdb
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Infrastructure.AssemblyInfo.cs
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Inf.5DDCC672.Up2Date
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Infrastructure.dll
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\refint\Cert.Infrastructure.dll
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Infrastructure.pdb
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\Cert.Infrastructure.genruntimeconfig.cache
+C:\Users\elect\source\repos\Cert\Cert.Infrastructure\obj\Debug\net8.0\ref\Cert.Infrastructure.dll
